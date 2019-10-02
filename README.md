@@ -1,1 +1,1 @@
-# Course-Vacancy-Notification-System
+# Course Vacancy Notification System
