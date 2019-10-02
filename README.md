@@ -10,3 +10,6 @@ Regularly inspects the CUNY course catalog to identify openings as they become a
 ## Successes
 * Program completed 2,600 successful iterations across a 2 week period.
 * Improved algorithm decreases runtime from 50 seconds to 14 seconds.
+
+## Tools
+*Selenium Webdriver* - Allows for automation in the web browser as well as headless capabilities.
