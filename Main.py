@@ -13,7 +13,7 @@ import re
 # Course code for the classes that I am tracking	
 classes = ["50541","50517","50485","50489","50469","50470","50549","50495"]	#50467 is the test one
 # Places to send a reminder to (emails, mobile-numbers)
-devices = ["naiem.gafar@gmail.com","9174360541@tmomail.net"]
+devices = ["your.email.here@email.com","123456789@tmomail.net"]
 
 # Function that checks if a class is available
 def isAvailable(section, list):
@@ -32,8 +32,8 @@ def isAvailable(section, list):
 # Function that sends an email to notify when a class has become available
 # Is called below . . . 
 def sendNotification(recipient, subjectLine, notification):  
-	email = "naiememailbot@gmail.com"
-	password = "%?k3?nu?bgk3em!&%@fntm!=njtfs=rh"
+	email = "your-email-bot@gmail.com"
+	password = "************"
 	send_to_email = recipient
 	subject = subjectLine
 	message = notification
@@ -107,7 +107,7 @@ try:
 
 	# Logs the timestamp and elapsed run-time in a log file
 	import csv
-	b=open(r"C:\Users\Naiem\Desktop\Side Projects\Class Notifier\Log.csv", 'a',newline='')
+	b=open(r"\\location\\of\\your\\log\\file\\", 'a',newline='')
 	a=csv.writer(b)
 	a.writerow([current,elapsed])
 	b.close()

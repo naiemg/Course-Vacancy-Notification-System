@@ -1,2 +1,2 @@
-py "C:\Users\Naiem\Desktop\Side Projects\Class Notifier\Main.py"
+py "\\path to\Main.py"
 pause
