@@ -16,5 +16,5 @@ Regularly inspects the CUNY course catalog to identify openings as they become a
 
 ## What's Next
 * Attempt to run this system on a Raspberry Pi and not on my PC
-* Furthur enhance algorithm to decrease runtime
+* Further enhance algorithm to decrease runtime
 * Create a more streamlined way of selecting courses related to a certain major, time-period, etc.
